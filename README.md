@@ -1,17 +1,35 @@
 # MENSURA
 
-**RO** — Aplicație single-file HTML, offline, fără urmărire, pentru măsurarea cât mai obiectivă a IQ, EQ, CQ, RQ (raționalitate), funcții executive și simțuri (auz, timp de reacție). 18 teste, 8 limbi (ro, en, fr, it, es, pt, de, hu). Deschide `MENSURA.html` în orice browser modern; nimic nu se trimite nicăieri, datele rămân în `localStorage`.
+**English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-**EN** — Offline, single-file, trade-free HTML app for measuring IQ, EQ, CQ, RQ (rationality), executive functions and senses (hearing, reaction time) as objectively as feasible. 18 tests, 8 languages. Open `MENSURA.html` in any modern browser; nothing is sent anywhere.
+Offline, single-file, trade-free HTML app that measures IQ, EQ, CQ, RQ (rationality), executive functions and senses (hearing, reaction time) as objectively as feasible. 18 tests, 8 languages, no tracking: nothing is sent anywhere, data stays in your browser (`localStorage`).
 
-## Limite / Limits
-- Normele sunt **provizorii** (estimări proprii, necalibrate pe un eșantion reprezentativ); indicii sunt orientativi, **nu diagnostice**. / Norms are **provisional**; indices are indicative, **not diagnostic**.
-- Poți calibra normele local importând ≥30 exporturi JSON. / You can calibrate norms locally by importing ≥30 JSON exports.
-- Dificultatea itemilor și echivalența formelor nu au fost testate pe oameni. / Item difficulty and form equivalence are untested on humans.
-- Testele de timp depind de dispozitiv; auzul cere căști. / Timing depends on the device; hearing needs headphones.
+## Usage
 
-## Funcții / Features
-Export/import JSON, istoric z pe test, modul accesibil (timp ×1,5), detectare pierdere focus, temă deschisă/închisă.
+Open `index.html` (or `MENSURA.html`) in any modern browser. Live version once Pages is enabled: https://chiuta.github.io/MENSURA/
 
-## Licență / License
-MIT © 2026 Alexandru-Ionuț Chiuță (Alexio) — see `LICENSE`.
+## Features
+
+- 18 tests in 6 domains: IQ, EQ, CQ, RQ, executive functions, senses
+- Composite indices with 95% confidence intervals and reliable-change index
+- JSON export / import of your results; local norm calibration (≥ 30 exports)
+- Accessible mode (timers ×1.5), focus-loss detection, light/dark theme
+- Atlas of other quotients, news and methodology tabs
+
+## Limits
+
+- Norms are **provisional** (own estimates, not calibrated on a representative sample); indices are indicative, **not diagnostic**.
+- Item difficulty and parallel-form equivalence have not been tested on humans.
+- RQ items follow well-known CRT-style structures; if you know them, scores are inflated.
+- Timing depends on the device; the hearing test needs headphones.
+
+## Links
+
+- chiuta.ro: https://chiuta.ro/
+- Demo: https://chiuta.ro/demo/#MENSURA
+- GitHub: https://github.com/chiuta/MENSURA
+- ☕ https://buymeacoffee.com/echo.of.the.strings
+
+## License
+
+MIT © 2026 Alexandru-Ionuț Chiuță (Alexio) — [LICENSE](LICENSE)
