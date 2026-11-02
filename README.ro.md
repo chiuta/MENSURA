@@ -2,34 +2,22 @@
 
 [English](README.md) · **Română** · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Aplicație HTML single-file, offline și trade-free, care măsoară cât mai obiectiv IQ, EQ, CQ, RQ (raționalitate), funcțiile executive și simțurile (auz, timp de reacție). 18 teste, 8 limbi, fără urmărire: nimic nu se trimite nicăieri, datele rămân în browser (`localStorage`).
+**Cea mai obiectivă măsurare posibilă a inteligențelor: IQ, EQ, CQ, RQ și funcții înrudite.**
+
+Versiune: 1.5 · Ultima actualizare: 3 noiembrie 2026
+
+## Ce este
+
+MENSURA este o aplicație HTML single-file, offline, cu 18 teste de performanță în 6 domenii: inteligență generală (g), inteligență emoțională (EQ), creativitate (CQ), raționalitate (RQ), funcții executive și simțuri (auz, timp de reacție). Itemii sunt generați procedural, scorați cu norme provizorii și combinați în indici compoziți cu intervale de încredere de 95% și indice de schimbare fiabilă. Conține și un atlas de 19 constructe (alți coeficienți), noutăți verificate (la 2 noiembrie 2026), o secțiune de metodologie, export/import JSON al rezultatelor și calibrare locală opțională a normelor din propriile exporturi.
 
 ## Utilizare
 
-Deschide `index.html` (sau `MENSURA.html`) în orice browser modern. Versiunea online, după activarea Pages: https://mensura.chiuta.ro/
-
-## Funcții
-
-- 18 teste în 6 domenii: IQ, EQ, CQ, RQ, funcții executive, simțuri
-- Indici compoziți cu intervale de încredere de 95% și indice de schimbare fiabilă
-- Export / import JSON al rezultatelor; calibrare locală a normelor (≥ 30 exporturi)
-- Mod accesibil (cronometre ×1,5), detectarea pierderii focusului, temă deschisă/închisă
-- Atlas al altor coeficienți, noutăți și metodologie
+Deschide index.html în orice browser modern. Fără instalare, fără cont, fără urmărire; datele rămân în browser (localStorage). Selectorul de limbă este în bara de sus (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. Interfața se adaptează la desktop, tabletă și mobil (teste pe tot ecranul pe telefon), cu mod accesibil (cronometre ×1,5) și temă deschisă/închisă.
 
 ## Limite
 
-- Normele sunt **provizorii** (estimări proprii, necalibrate pe un eșantion reprezentativ); indicii sunt orientativi, **nu diagnostici**.
-- Dificultatea itemilor și echivalența formelor paralele nu au fost testate pe oameni.
-- Itemii RQ urmează structuri cunoscute de tip CRT; dacă le știi, scorul este umflat.
-- Cronometrarea depinde de dispozitiv; testul de auz cere căști.
-
-## Legături
-
-- chiuta.ro: https://chiuta.ro/
-- Demo: https://chiuta.ro/demo/#MENSURA
-- GitHub: https://github.com/chiuta/MENSURA
-- ☕ https://buymeacoffee.com/echo.of.the.strings
+Instrument educațional și de cercetare, nu de diagnostic: nu înlocuiește o evaluare standardizată făcută de un psiholog. Normele sunt provizorii (estimări proprii, necalibrate pe un eșantion reprezentativ); dificultatea itemilor și echivalența formelor paralele nu au fost testate pe oameni. Itemii RQ urmează structuri cunoscute, deci cunoașterea prealabilă umflă scorul. Cronometrarea depinde de dispozitiv, iar auzul cere căști. Sursele și limitele sunt listate în aplicație.
 
 ## Licență
 
-MIT © 2026 Alexandru-Ionuț Chiuță (Alexio) — [LICENSE](LICENSE)
+MIT · © Alexandru-Ionuț Chiuță (Alexio). Independentă: neafiliată vreunui editor de teste.

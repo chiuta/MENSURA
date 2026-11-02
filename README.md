@@ -2,34 +2,22 @@
 
 **English** · [Română](README.ro.md) · [Français](README.fr.md) · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Offline, single-file, trade-free HTML app that measures IQ, EQ, CQ, RQ (rationality), executive functions and senses (hearing, reaction time) as objectively as feasible. 18 tests, 8 languages, no tracking: nothing is sent anywhere, data stays in your browser (`localStorage`).
+**The most objective possible measurement of intelligences: IQ, EQ, CQ, RQ and related functions.**
 
-## Usage
+Version: 1.5 · Last updated: 3 November 2026
 
-Open `index.html` (or `MENSURA.html`) in any modern browser. Live version once Pages is enabled: https://mensura.chiuta.ro/
+## What it is
 
-## Features
+MENSURA is a single-file, offline HTML app with 18 performance tests in 6 domains: general intelligence (g), emotional intelligence (EQ), creativity (CQ), rationality (RQ), executive functions, and senses (hearing, reaction time). Items are generated procedurally, scored with provisional norms, and combined into composite indices with 95% confidence intervals and a reliable-change index. It also holds an atlas of 19 constructs (other quotients), verified news (as of 2 November 2026), a methodology section, JSON export/import of your results and optional local calibration of the norms from your own exports.
 
-- 18 tests in 6 domains: IQ, EQ, CQ, RQ, executive functions, senses
-- Composite indices with 95% confidence intervals and reliable-change index
-- JSON export / import of your results; local norm calibration (≥ 30 exports)
-- Accessible mode (timers ×1.5), focus-loss detection, light/dark theme
-- Atlas of other quotients, news and methodology tabs
+## Use
+
+Open index.html in any modern browser. No installation, no account, no tracking; data stays in your browser (localStorage). The language selector is in the top bar (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. The layout adapts to desktop, tablet and mobile (full-screen tests on phones), with an accessible mode (timers ×1.5) and a light/dark theme.
 
 ## Limits
 
-- Norms are **provisional** (own estimates, not calibrated on a representative sample); indices are indicative, **not diagnostic**.
-- Item difficulty and parallel-form equivalence have not been tested on humans.
-- RQ items follow well-known CRT-style structures; if you know them, scores are inflated.
-- Timing depends on the device; the hearing test needs headphones.
-
-## Links
-
-- chiuta.ro: https://chiuta.ro/
-- Demo: https://chiuta.ro/demo/#MENSURA
-- GitHub: https://github.com/chiuta/MENSURA
-- ☕ https://buymeacoffee.com/echo.of.the.strings
+Educational and research tool, not a diagnostic instrument: it does not replace a standardised assessment by a psychologist. Norms are provisional (own estimates, not calibrated on a representative sample); item difficulty and parallel-form equivalence have not been tested on people. RQ items follow well-known structures, so prior knowledge inflates scores. Timing depends on the device and hearing needs headphones. Sources and limits are listed inside the app.
 
 ## License
 
-MIT © 2026 Alexandru-Ionuț Chiuță (Alexio) — [LICENSE](LICENSE)
+MIT · © Alexandru-Ionuț Chiuță (Alexio). Independent: not affiliated with any test publisher.

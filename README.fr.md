@@ -2,34 +2,22 @@
 
 [English](README.md) · [Română](README.ro.md) · **Français** · [Italiano](README.it.md) · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-Application HTML autonome (un seul fichier), hors ligne et trade-free, qui mesure aussi objectivement que possible le QI, l'EQ, le CQ, le QR (rationalité), les fonctions exécutives et les sens (ouïe, temps de réaction). 18 tests, 8 langues, aucun suivi : rien n'est envoyé, les données restent dans votre navigateur (`localStorage`).
+**La mesure la plus objective possible des intelligences : QI, EQ, CQ, QR et fonctions apparentées.**
+
+Version : 1.5 · Dernière mise à jour : 3 novembre 2026
+
+## De quoi s'agit-il
+
+MENSURA est une application HTML autonome (un seul fichier), hors ligne, avec 18 tests de performance dans 6 domaines : intelligence générale (g), intelligence émotionnelle (EQ), créativité (CQ), rationalité (QR), fonctions exécutives et sens (ouïe, temps de réaction). Les items sont générés de façon procédurale, notés avec des normes provisoires et combinés en indices composites avec intervalles de confiance à 95 % et indice de changement fiable. Elle contient aussi un atlas de 19 construits (autres quotients), des actualités vérifiées (au 2 novembre 2026), une section méthodologique, l'export/import JSON des résultats et un étalonnage local facultatif des normes à partir de vos propres exports.
 
 ## Utilisation
 
-Ouvrez `index.html` (ou `MENSURA.html`) dans un navigateur récent. Version en ligne une fois Pages activé : https://mensura.chiuta.ro/
-
-## Fonctionnalités
-
-- 18 tests dans 6 domaines : QI, EQ, CQ, QR, fonctions exécutives, sens
-- Indices composites avec intervalles de confiance à 95 % et indice de changement fiable
-- Export / import JSON des résultats ; étalonnage local des normes (≥ 30 exports)
-- Mode accessible (minuteurs ×1,5), détection de perte de focus, thème clair/sombre
-- Atlas d'autres quotients, actualités et méthodologie
+Ouvrez index.html dans un navigateur récent. Sans installation, sans compte, sans suivi ; les données restent dans votre navigateur (localStorage). Le sélecteur de langue est dans la barre du haut (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). En ligne : https://mensura.chiuta.ro. La mise en page s'adapte au bureau, à la tablette et au mobile (tests plein écran sur téléphone), avec un mode accessible (minuteurs ×1,5) et un thème clair/sombre.
 
 ## Limites
 
-- Les normes sont **provisoires** (estimations propres, non étalonnées sur un échantillon représentatif) ; les indices sont indicatifs, **non diagnostiques**.
-- La difficulté des items et l'équivalence des formes parallèles n'ont pas été testées sur des humains.
-- Les items QR suivent des structures de type CRT bien connues ; si vous les connaissez, le score est gonflé.
-- Le chronométrage dépend de l'appareil ; le test d'audition nécessite un casque.
-
-## Liens
-
-- chiuta.ro: https://chiuta.ro/
-- Demo: https://chiuta.ro/demo/#MENSURA
-- GitHub: https://github.com/chiuta/MENSURA
-- ☕ https://buymeacoffee.com/echo.of.the.strings
+Outil éducatif et de recherche, non diagnostique : il ne remplace pas une évaluation standardisée par un psychologue. Les normes sont provisoires (estimations propres, non étalonnées sur un échantillon représentatif) ; la difficulté des items et l'équivalence des formes parallèles n'ont pas été testées sur des personnes. Les items QR suivent des structures connues, donc la connaissance préalable gonfle le score. Le chronométrage dépend de l'appareil et l'ouïe exige un casque. Les sources et limites sont indiquées dans l'application.
 
 ## Licence
 
-MIT © 2026 Alexandru-Ionuț Chiuță (Alexio) — [LICENSE](LICENSE)
+MIT · © Alexandru-Ionuț Chiuță (Alexio). Indépendante : non affiliée à un éditeur de tests.

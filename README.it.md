@@ -2,34 +2,22 @@
 
 [English](README.md) · [Română](README.ro.md) · [Français](README.fr.md) · **Italiano** · [Español](README.es.md) · [Português](README.pt.md) · [Deutsch](README.de.md) · [Magyar](README.hu.md)
 
-App HTML single-file, offline e trade-free, che misura nel modo più oggettivo possibile QI, EQ, CQ, QR (razionalità), funzioni esecutive e sensi (udito, tempo di reazione). 18 test, 8 lingue, nessun tracciamento: nulla viene inviato, i dati restano nel browser (`localStorage`).
+**La misura più oggettiva possibile delle intelligenze: QI, EQ, CQ, QR e funzioni affini.**
+
+Versione: 1.5 · Ultimo aggiornamento: 3 novembre 2026
+
+## Che cos'è
+
+MENSURA è un'app HTML single-file, offline, con 18 test di prestazione in 6 domini: intelligenza generale (g), intelligenza emotiva (EQ), creatività (CQ), razionalità (QR), funzioni esecutive e sensi (udito, tempo di reazione). Gli item sono generati proceduralmente, valutati con norme provvisorie e combinati in indici compositi con intervalli di confidenza al 95% e indice di cambiamento affidabile. Contiene anche un atlante di 19 costrutti (altri quozienti), novità verificate (al 2 novembre 2026), una sezione metodologica, l'esportazione/importazione JSON dei risultati e una taratura locale facoltativa delle norme dai propri export.
 
 ## Uso
 
-Apri `index.html` (o `MENSURA.html`) in un browser moderno. Versione online dopo l'attivazione di Pages: https://mensura.chiuta.ro/
-
-## Funzioni
-
-- 18 test in 6 domini: QI, EQ, CQ, QR, funzioni esecutive, sensi
-- Indici compositi con intervalli di confidenza al 95% e indice di cambiamento affidabile
-- Esportazione / importazione JSON dei risultati; taratura locale delle norme (≥ 30 esportazioni)
-- Modalità accessibile (timer ×1,5), rilevamento della perdita di focus, tema chiaro/scuro
-- Atlante di altri quozienti, novità e metodologia
+Apri index.html in un browser moderno. Nessuna installazione, nessun account, nessun tracciamento; i dati restano nel browser (localStorage). Il selettore della lingua è nella barra superiore (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. L'interfaccia si adatta a desktop, tablet e mobile (test a schermo intero sul telefono), con modalità accessibile (timer ×1,5) e tema chiaro/scuro.
 
 ## Limiti
 
-- Le norme sono **provvisorie** (stime proprie, non tarate su un campione rappresentativo); gli indici sono indicativi, **non diagnostici**.
-- Difficoltà degli item ed equivalenza delle forme parallele non sono state testate su persone.
-- Gli item QR seguono strutture di tipo CRT ben note; se le conosci, il punteggio risulta gonfiato.
-- La misura dei tempi dipende dal dispositivo; il test dell'udito richiede le cuffie.
-
-## Link
-
-- chiuta.ro: https://chiuta.ro/
-- Demo: https://chiuta.ro/demo/#MENSURA
-- GitHub: https://github.com/chiuta/MENSURA
-- ☕ https://buymeacoffee.com/echo.of.the.strings
+Strumento educativo e di ricerca, non diagnostico: non sostituisce una valutazione standardizzata da parte di uno psicologo. Le norme sono provvisorie (stime proprie, non tarate su un campione rappresentativo); difficoltà degli item ed equivalenza delle forme parallele non sono state testate su persone. Gli item QR seguono strutture note, quindi la conoscenza preventiva gonfia il punteggio. La misura dei tempi dipende dal dispositivo e l'udito richiede le cuffie. Fonti e limiti sono elencati nell'app.
 
 ## Licenza
 
-MIT © 2026 Alexandru-Ionuț Chiuță (Alexio) — [LICENSE](LICENSE)
+MIT · © Alexandru-Ionuț Chiuță (Alexio). Indipendente: non affiliata ad alcun editore di test.
