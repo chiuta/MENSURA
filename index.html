@@ -2,13 +2,13 @@
 <html lang="ro">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#07060f">
 <meta name="color-scheme" content="dark light">
 <title>MENSURA</title>
 <meta name="description" content="MENSURA — offline, single-file, trade-free app for measuring IQ, EQ, CQ, RQ and other quotients as objectively as possible. 8 languages, no tracking.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307060f'/%3E%3Cpath d='M14 48V16l18 22 18-22v32' fill='none' stroke='%238f7bff' stroke-width='6' stroke-linejoin='round' stroke-linecap='round'/%3E%3C/svg%3E">
-<!-- MENSURA v1.4 — măsurarea obiectivă a inteligențelor. MIT License · © 2026 Alexandru-Ionuț Chiuță (Alexio). Offline, trade-free, fără urmărire. -->
+<!-- MENSURA v1.5 — măsurarea obiectivă a inteligențelor. MIT License · © 2026 Alexandru-Ionuț Chiuță (Alexio). Offline, trade-free, fără urmărire. -->
 <style>
 :root{--bg:#07060f;--fg:#ece9fb;--mut:#a09cc0;--card:#100e1d;--line:#27224a;--acc:#8f7bff;--acc2:#1c1740;--onacc:#0a0818;--ok:#4cc38a;--bad:#ef7676;--ctl:#6a649f;color-scheme:dark}
 :root[data-theme=light]{--bg:#f6f5fc;--fg:#17142b;--mut:#5d5a7a;--card:#fff;--line:#dcd8f0;--acc:#5b43e6;--acc2:#ece8ff;--onacc:#fff;--ok:#1f9d55;--bad:#d64545;--ctl:#807aa8;color-scheme:light}
@@ -95,6 +95,41 @@ ul.p{padding-left:20px}ul.p li{margin:6px 0}
 .links{display:flex;gap:10px 18px;flex-wrap:wrap;padding:0;list-style:none}
 footer{max-width:1000px;margin:0 auto;padding:16px;color:var(--mut);font-size:13px;border-top:1px solid var(--line)}
 footer .fl{display:flex;gap:6px 16px;flex-wrap:wrap;margin:6px 0}
+/* ===== layout adaptiv: telefon / tabletă / desktop ===== */
+html{-webkit-text-size-adjust:100%}
+button,.tab,.opt,.cb,.tapbig,.swatch{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+.hero,.tabs,main,footer{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+.bar{padding-left:max(16px,env(safe-area-inset-left));padding-right:max(16px,env(safe-area-inset-right))}
+footer{padding-bottom:max(16px,env(safe-area-inset-bottom))}
+.tabs{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.tabs::-webkit-scrollbar{display:none}
+.tab{white-space:nowrap;flex:0 0 auto}
+@media(hover:hover){.card{transition:border-color .15s,transform .15s}.card:hover{transform:translateY(-1px)}}
+@media(pointer:coarse){select,input,textarea{font-size:16px}}
+@media(min-width:1200px){.hero,.tabs,main,footer{max-width:1180px}.grid{grid-template-columns:repeat(auto-fill,minmax(300px,1fr))}.hero h1{font-size:40px}.stage{max-width:780px;padding:24px}}
+@media(min-width:760px) and (max-width:1199px){.stage{padding:22px}}
+@media(max-width:620px){
+ .bar{flex-wrap:nowrap;gap:4px 12px;padding-top:4px;padding-bottom:4px}
+ .bar a:nth-of-type(3){display:none}
+ .bar select{max-width:112px;font-size:14px}
+ .hero{padding-top:14px}
+ .stats{display:flex;overflow-x:auto;scrollbar-width:none;gap:8px;margin-right:-16px;padding-right:16px}
+ .stats::-webkit-scrollbar{display:none}
+ .stat{flex:0 0 auto;min-width:104px}.stat b{font-size:20px}
+ .badges span,.vpill{font-size:12px;padding:1px 10px}
+ .sub{font-size:15px}
+ h2{font-size:18px;margin-top:20px}
+ .grid{grid-template-columns:1fr}
+ .ov{padding:0;align-items:stretch}
+ .stage{max-width:none;max-height:none;height:100%;border-radius:0;border:0;padding:16px 16px max(16px,env(safe-area-inset-bottom))}
+ .opts{grid-template-columns:repeat(2,1fr)}
+ .mat{grid-template-columns:repeat(3,min(90px,26vw))}.mat>div{width:min(90px,26vw);height:min(90px,26vw)}
+ .ckey{gap:2px}.ckey svg{width:22px;height:22px}
+ .big{font-size:52px}.stroopw{font-size:44px}
+ .cboard{height:min(260px,48vh)}
+}
+@media(max-width:380px){.bar{flex-wrap:wrap}}
+@media(max-height:520px) and (orientation:landscape){.ov{padding:0}.stage{max-height:100dvh;height:100%;border-radius:0}.hero{padding-top:8px}.q{min-height:60px}}
 @media print{.bar,.tabs,footer .fl{display:none}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.tbar i{transition:none!important}}
 </style>
@@ -1570,7 +1605,7 @@ function openTest(x){
 
 /* ===== vederi ===== */
 const LINKS={home:"https://chiuta.ro/",demo:"https://chiuta.ro/demo/#MENSURA",github:"https://github.com/chiuta/MENSURA",readme:"https://github.com/chiuta/MENSURA#readme",coffee:"https://buymeacoffee.com/echo.of.the.strings"};
-const VERSION="1.4",UPDATED="2026-11-03";
+const VERSION="1.5",UPDATED="2026-11-03";
 const ext=(href,label,cls)=>el("a",Object.assign({href,target:"_blank",rel:"noopener noreferrer"},cls?{class:cls}:{}),label);
 const verLine=()=>`${t("v_ver")}: ${VERSION} · ${t("v_upd")}: ${new Date(UPDATED+"T12:00:00").toLocaleDateString(S.lang,{year:"numeric",month:"long",day:"numeric"})}`;
 
