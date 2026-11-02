@@ -6,7 +6,7 @@ Aplicación HTML de un solo archivo, sin conexión y trade-free, que mide de la 
 
 ## Uso
 
-Abre `index.html` (o `MENSURA.html`) en un navegador moderno. Versión en línea cuando se active Pages: https://chiuta.github.io/MENSURA/
+Abre `index.html` (o `MENSURA.html`) en un navegador moderno. Versión en línea cuando se active Pages: https://mensura.chiuta.ro/
 
 ## Funciones
 

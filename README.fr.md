@@ -6,7 +6,7 @@ Application HTML autonome (un seul fichier), hors ligne et trade-free, qui mesur
 
 ## Utilisation
 
-Ouvrez `index.html` (ou `MENSURA.html`) dans un navigateur récent. Version en ligne une fois Pages activé : https://chiuta.github.io/MENSURA/
+Ouvrez `index.html` (ou `MENSURA.html`) dans un navigateur récent. Version en ligne une fois Pages activé : https://mensura.chiuta.ro/
 
 ## Fonctionnalités
 

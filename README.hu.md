@@ -6,7 +6,7 @@ Offline, egyetlen fájlból álló, trade-free HTML-alkalmazás, amely a lehető
 
 ## Használat
 
-Nyisd meg az `index.html` (vagy `MENSURA.html`) fájlt egy modern böngészőben. Online változat a Pages bekapcsolása után: https://chiuta.github.io/MENSURA/
+Nyisd meg az `index.html` (vagy `MENSURA.html`) fájlt egy modern böngészőben. Online változat a Pages bekapcsolása után: https://mensura.chiuta.ro/
 
 ## Funkciók
 

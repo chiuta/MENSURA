@@ -6,7 +6,7 @@ Aplicație HTML single-file, offline și trade-free, care măsoară cât mai obi
 
 ## Utilizare
 
-Deschide `index.html` (sau `MENSURA.html`) în orice browser modern. Versiunea online, după activarea Pages: https://chiuta.github.io/MENSURA/
+Deschide `index.html` (sau `MENSURA.html`) în orice browser modern. Versiunea online, după activarea Pages: https://mensura.chiuta.ro/
 
 ## Funcții
 

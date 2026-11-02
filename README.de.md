@@ -6,7 +6,7 @@ Offline nutzbare, trade-free HTML-App in einer einzigen Datei, die IQ, EQ, CQ, R
 
 ## Verwendung
 
-`index.html` (oder `MENSURA.html`) in einem aktuellen Browser öffnen. Online-Version nach Aktivierung von Pages: https://chiuta.github.io/MENSURA/
+`index.html` (oder `MENSURA.html`) in einem aktuellen Browser öffnen. Online-Version nach Aktivierung von Pages: https://mensura.chiuta.ro/
 
 ## Funktionen
 

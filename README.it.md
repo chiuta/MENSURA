@@ -6,7 +6,7 @@ App HTML single-file, offline e trade-free, che misura nel modo più oggettivo p
 
 ## Uso
 
-Apri `index.html` (o `MENSURA.html`) in un browser moderno. Versione online dopo l'attivazione di Pages: https://chiuta.github.io/MENSURA/
+Apri `index.html` (o `MENSURA.html`) in un browser moderno. Versione online dopo l'attivazione di Pages: https://mensura.chiuta.ro/
 
 ## Funzioni
 

@@ -6,7 +6,7 @@ Offline, single-file, trade-free HTML app that measures IQ, EQ, CQ, RQ (rational
 
 ## Usage
 
-Open `index.html` (or `MENSURA.html`) in any modern browser. Live version once Pages is enabled: https://chiuta.github.io/MENSURA/
+Open `index.html` (or `MENSURA.html`) in any modern browser. Live version once Pages is enabled: https://mensura.chiuta.ro/
 
 ## Features
 
