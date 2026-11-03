@@ -1,0 +1,84 @@
+{
+  "schema": 1,
+  "slug": "mensura",
+  "name": "MENSURA",
+  "version": "1.6.0",
+  "updated": "2026-11-03",
+  "description": "MENSURA — offline, single-file, trade-free app for measuring IQ, EQ, CQ, RQ and other quotients as objectively as possible. 8 languages, no tracking.",
+  "egress": [],
+  "permissions": [
+    "clipboard",
+    "serviceWorker",
+    "localStorage",
+    "Web Crypto",
+    "BroadcastChannel"
+  ],
+  "storageKeys": [
+    "mensura.v1"
+  ],
+  "sizeBytes": 633457,
+  "sha256": "2d667a5f00a00581c863666eb0eda71dcbcd0dfe45f0ffd84a585182f6fba82a",
+  "csp": {
+    "present": true,
+    "directives": {
+      "default-src": "'none'",
+      "connect-src": "'none'",
+      "script-src": "sha256×6",
+      "style-src": "'unsafe-inline'",
+      "img-src": "'self' data:",
+      "base-uri": "'none'",
+      "form-action": "'none'",
+      "object-src": "'none'",
+      "manifest-src": "'self'",
+      "worker-src": "'self'"
+    },
+    "scriptInline": "hash",
+    "connect": "'none'"
+  },
+  "features": {
+    "export": true,
+    "import": true,
+    "i18n": [
+      "ro",
+      "en",
+      "fr",
+      "it",
+      "es",
+      "pt",
+      "hu",
+      "de"
+    ],
+    "pwa": {
+      "manifest": true,
+      "serviceWorker": true
+    },
+    "modules": [
+      "core",
+      "store",
+      "dialog",
+      "label",
+      "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history",
+      "bridge"
+    ]
+  },
+  "kit": {
+    "version": "1.2.0",
+    "modules": [
+      "core",
+      "store",
+      "dialog",
+      "label",
+      "bundle",
+      "qr",
+      "p2p",
+      "sync",
+      "history",
+      "bridge"
+    ]
+  },
+  "selfSerializing": false
+}

@@ -4,7 +4,7 @@
 
 **La medición más objetiva posible de las inteligencias: CI, EQ, CQ, CR y funciones afines.**
 
-Versión: 1.5 · Última actualización: 3 de noviembre de 2026
+Versión: 1.6.0 · Última actualización: 3 de noviembre de 2026
 
 ## Qué es
 
@@ -12,7 +12,7 @@ MENSURA es una aplicación HTML de un solo archivo, sin conexión, con 18 prueba
 
 ## Uso
 
-Abre index.html en un navegador moderno. Sin instalación, sin cuenta, sin rastreo; los datos permanecen en tu navegador (localStorage). El selector de idioma está en la barra superior (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). En línea: https://mensura.chiuta.ro. El diseño se adapta a escritorio, tableta y móvil (pruebas a pantalla completa en el teléfono), con modo accesible (temporizadores ×1,5) y tema claro/oscuro.
+Abre index.html en un navegador moderno. Sin instalación, sin cuenta, sin rastreo; los datos permanecen en tu navegador (localStorage). El selector de idioma está en la barra superior (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). En línea: https://mensura.chiuta.ro. El diseño se adapta a escritorio, tableta y móvil (pruebas a pantalla completa en el teléfono), con modo accesible (temporizadores ×1,5) y tema claro/oscuro. Haz clic en la etiqueta de versión para abrir el diálogo «Transparencia» (red, almacenamiento, copia de seguridad `.fff.json`, sincronización entre tus dispositivos). La interfaz tiene 8 idiomas; las traducciones distintas del rumano son automáticas y no están revisadas por hablantes nativos.
 
 ## Límites
 

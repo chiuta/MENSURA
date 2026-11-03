@@ -4,7 +4,7 @@
 
 **A medição mais objetiva possível das inteligências: QI, EQ, CQ, QR e funções afins.**
 
-Versão: 1.5 · Última atualização: 3 de novembro de 2026
+Versão: 1.6.0 · Última atualização: 3 de novembro de 2026
 
 ## O que é
 
@@ -12,7 +12,7 @@ O MENSURA é uma aplicação HTML de ficheiro único, offline, com 18 testes de 
 
 ## Utilização
 
-Abra index.html num navegador moderno. Sem instalação, sem conta, sem rastreamento; os dados ficam no seu navegador (localStorage). O seletor de idioma está na barra superior (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. O layout adapta-se a computador, tablet e telemóvel (testes em ecrã inteiro no telemóvel), com modo acessível (temporizadores ×1,5) e tema claro/escuro.
+Abra index.html num navegador moderno. Sem instalação, sem conta, sem rastreamento; os dados ficam no seu navegador (localStorage). O seletor de idioma está na barra superior (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. O layout adapta-se a computador, tablet e telemóvel (testes em ecrã inteiro no telemóvel), com modo acessível (temporizadores ×1,5) e tema claro/escuro. Clica na etiqueta da versão para abrir o diálogo «Transparência» (rede, armazenamento, cópia de segurança `.fff.json`, sincronização entre os teus dispositivos). A interface tem 8 idiomas; as traduções além do romeno são automáticas e não foram revistas por falantes nativos.
 
 ## Limites
 

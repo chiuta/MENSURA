@@ -4,7 +4,7 @@
 
 **La mesure la plus objective possible des intelligences : QI, EQ, CQ, QR et fonctions apparentées.**
 
-Version : 1.5 · Dernière mise à jour : 3 novembre 2026
+Version : 1.6.0 · Dernière mise à jour : 3 novembre 2026
 
 ## De quoi s'agit-il
 
@@ -12,7 +12,7 @@ MENSURA est une application HTML autonome (un seul fichier), hors ligne, avec 18
 
 ## Utilisation
 
-Ouvrez index.html dans un navigateur récent. Sans installation, sans compte, sans suivi ; les données restent dans votre navigateur (localStorage). Le sélecteur de langue est dans la barre du haut (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). En ligne : https://mensura.chiuta.ro. La mise en page s'adapte au bureau, à la tablette et au mobile (tests plein écran sur téléphone), avec un mode accessible (minuteurs ×1,5) et un thème clair/sombre.
+Ouvrez index.html dans un navigateur récent. Sans installation, sans compte, sans suivi ; les données restent dans votre navigateur (localStorage). Le sélecteur de langue est dans la barre du haut (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). En ligne : https://mensura.chiuta.ro. La mise en page s'adapte au bureau, à la tablette et au mobile (tests plein écran sur téléphone), avec un mode accessible (minuteurs ×1,5) et un thème clair/sombre. Clique sur l'étiquette de version pour ouvrir la boîte « Transparence » (réseau, stockage, sauvegarde `.fff.json`, synchronisation entre tes appareils). L'interface compte 8 langues ; les traductions autres que le roumain sont automatiques et non vérifiées par des locuteurs natifs.
 
 ## Limites
 

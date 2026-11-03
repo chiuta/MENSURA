@@ -4,7 +4,7 @@
 
 **Cea mai obiectivă măsurare posibilă a inteligențelor: IQ, EQ, CQ, RQ și funcții înrudite.**
 
-Versiune: 1.5 · Ultima actualizare: 3 noiembrie 2026
+Versiune: 1.6.0 · Ultima actualizare: 3 noiembrie 2026
 
 ## Ce este
 
@@ -12,7 +12,7 @@ MENSURA este o aplicație HTML single-file, offline, cu 18 teste de performanț�
 
 ## Utilizare
 
-Deschide index.html în orice browser modern. Fără instalare, fără cont, fără urmărire; datele rămân în browser (localStorage). Selectorul de limbă este în bara de sus (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. Interfața se adaptează la desktop, tabletă și mobil (teste pe tot ecranul pe telefon), cu mod accesibil (cronometre ×1,5) și temă deschisă/închisă.
+Deschide index.html în orice browser modern. Fără instalare, fără cont, fără urmărire; datele rămân în browser (localStorage). Selectorul de limbă este în bara de sus (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. Interfața se adaptează la desktop, tabletă și mobil (teste pe tot ecranul pe telefon), cu mod accesibil (cronometre ×1,5) și temă deschisă/închisă. Apasă pe eticheta versiunii pentru dialogul „Transparență” (rețea, stocare, copie de siguranță `.fff.json`, sincronizare între dispozitivele tale). Interfața are 8 limbi; traducerile în afară de română sunt automate și neverificate de vorbitori nativi.
 
 ## Limite
 

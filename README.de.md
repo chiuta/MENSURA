@@ -4,7 +4,7 @@
 
 **Die objektivste mögliche Messung von Intelligenzen: IQ, EQ, CQ, RQ und verwandte Funktionen.**
 
-Version: 1.5 · Zuletzt aktualisiert: 3. November 2026
+Version: 1.6.0 · Zuletzt aktualisiert: 3. November 2026
 
 ## Was es ist
 
@@ -12,7 +12,7 @@ MENSURA ist eine Offline-HTML-App in einer einzigen Datei mit 18 Leistungstests 
 
 ## Verwendung
 
-index.html in einem aktuellen Browser öffnen. Keine Installation, kein Konto, kein Tracking; die Daten bleiben im Browser (localStorage). Die Sprachauswahl befindet sich in der oberen Leiste (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. Das Layout passt sich Desktop, Tablet und Smartphone an (Tests im Vollbild auf dem Telefon), mit barrierearmem Modus (Timer ×1,5) und hellem/dunklem Design.
+index.html in einem aktuellen Browser öffnen. Keine Installation, kein Konto, kein Tracking; die Daten bleiben im Browser (localStorage). Die Sprachauswahl befindet sich in der oberen Leiste (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. Das Layout passt sich Desktop, Tablet und Smartphone an (Tests im Vollbild auf dem Telefon), mit barrierearmem Modus (Timer ×1,5) und hellem/dunklem Design. Klicke auf die Versionsangabe, um den Dialog „Transparenz“ zu öffnen (Netzwerk, Speicher, `.fff.json`-Sicherung, Abgleich zwischen deinen Geräten). Die Oberfläche hat 8 Sprachen; Übersetzungen außer Rumänisch sind automatisch und nicht von Muttersprachlern geprüft.
 
 ## Grenzen
 

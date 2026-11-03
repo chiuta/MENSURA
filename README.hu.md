@@ -4,7 +4,7 @@
 
 **Az intelligenciák lehető legobjektívebb mérése: IQ, EQ, CQ, RQ és rokon funkciók.**
 
-Verzió: 1.5 · Utolsó frissítés: 2026. november 3.
+Verzió: 1.6.0 · Utolsó frissítés: 2026. november 3.
 
 ## Mi ez
 
@@ -12,7 +12,7 @@ A MENSURA egyetlen fájlból álló, offline HTML-alkalmazás 18 teljesítményt
 
 ## Használat
 
-Nyisd meg az index.html fájlt egy modern böngészőben. Telepítés, fiók és követés nélkül; az adatok a böngészőben maradnak (localStorage). A nyelvválasztó a felső sávban található (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. Az elrendezés alkalmazkodik az asztali géphez, táblagéphez és mobilhoz (teljes képernyős tesztek telefonon), akadálymentes móddal (időzítők ×1,5) és világos/sötét témával.
+Nyisd meg az index.html fájlt egy modern böngészőben. Telepítés, fiók és követés nélkül; az adatok a böngészőben maradnak (localStorage). A nyelvválasztó a felső sávban található (English, Română, Français, Italiano, Español, Português, Deutsch, Magyar). Online: https://mensura.chiuta.ro. Az elrendezés alkalmazkodik az asztali géphez, táblagéphez és mobilhoz (teljes képernyős tesztek telefonon), akadálymentes móddal (időzítők ×1,5) és világos/sötét témával. Kattints a verzió feliratra az „Átláthatóság” párbeszédablakhoz (hálózat, tárolás, `.fff.json` mentés, szinkronizálás az eszközeid között). A felület 8 nyelvű; a románon kívüli fordítások automatikusak, anyanyelvi beszélők nem ellenőrizték őket.
 
 ## Korlátok
 
