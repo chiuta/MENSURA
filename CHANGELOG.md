@@ -2,6 +2,10 @@
 
 Format: SemVer MAJOR.MINOR.PATCH. Date: AAAA-LL-ZZ.
 
+## 1.6.1 — 2026-11-03
+
+Destinații «Trimite către…» pentru pașaportul de învățare: adăugate FENARIUM și MENSURA (registrul de aplicații-țintă reinjectat din hub).
+
 ## 1.6.0 — 2026-11-03
 
 Aducere la nivelul celorlalte aplicații „fără frontiere”:
