@@ -21,3 +21,5 @@ Ferramenta educativa e de investigação, não diagnóstica: não substitui uma 
 ## Licença
 
 MIT · © Alexandru-Ionuț Chiuță (Alexio). Independente: sem afiliação a qualquer editora de testes.
+
+<!-- traducere: pt=automat -->

@@ -21,3 +21,5 @@ Bildungs- und Forschungswerkzeug, kein Diagnoseinstrument: ersetzt keine standar
 ## Lizenz
 
 MIT · © Alexandru-Ionuț Chiuță (Alexio). Unabhängig: keinem Testverlag angeschlossen.
+
+<!-- traducere: de=automat -->

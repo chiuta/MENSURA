@@ -21,3 +21,5 @@ Herramienta educativa y de investigación, no diagnóstica: no sustituye una eva
 ## Licencia
 
 MIT · © Alexandru-Ionuț Chiuță (Alexio). Independiente: sin afiliación a ninguna editorial de pruebas.
+
+<!-- traducere: es=automat -->

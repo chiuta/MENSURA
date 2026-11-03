@@ -21,3 +21,5 @@ Oktatási és kutatási eszköz, nem diagnosztikai: nem helyettesíti a pszichol
 ## Licenc
 
 MIT · © Alexandru-Ionuț Chiuță (Alexio). Független: nem kötődik egyetlen tesztkiadóhoz sem.
+
+<!-- traducere: hu=automat -->
