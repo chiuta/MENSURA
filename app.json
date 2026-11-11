@@ -2,7 +2,7 @@
   "schema": 1,
   "slug": "mensura",
   "name": "MENSURA",
-  "version": "1.6.5",
+  "version": "1.6.6",
   "updated": "2026-11-11",
   "description": "MENSURA — offline, single-file, trade-free app for measuring IQ, EQ, CQ, RQ and other quotients as objectively as possible. 8 languages, no tracking.",
   "egress": [],
@@ -16,8 +16,8 @@
   "storageKeys": [
     "mensura.v1"
   ],
-  "sizeBytes": 671236,
-  "sha256": "eb4b12fdad529bbc921bb4d459cf3d121aafa8cb65f5b2d19972e7a234f54d11",
+  "sizeBytes": 674119,
+  "sha256": "a3e82a7505784408f742a87d151749970f49843203d71b9c6c1ed64fad892165",
   "csp": {
     "present": true,
     "directives": {
