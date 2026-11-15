@@ -11,19 +11,20 @@
     "serviceWorker",
     "localStorage",
     "Web Crypto",
+    "WebGL",
     "BroadcastChannel"
   ],
   "storageKeys": [
     "mensura.v1"
   ],
-  "sizeBytes": 687696,
-  "sha256": "76bfd8dde21ea8c080732c516f9db94682dacd48c5435c2d71f010e2196ee3fb",
+  "sizeBytes": 739724,
+  "sha256": "dd8f0f0e0bdf1178f1f2940ba0642201aa97804897c398ebe229cd1a40aad905",
   "csp": {
     "present": true,
     "directives": {
       "default-src": "'none'",
       "connect-src": "'none'",
-      "script-src": "sha256×6",
+      "script-src": "sha256×7",
       "style-src": "'unsafe-inline'",
       "img-src": "'self' data:",
       "base-uri": "'none'",
